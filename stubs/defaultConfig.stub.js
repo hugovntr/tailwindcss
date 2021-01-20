@@ -589,6 +589,7 @@ module.exports = {
       125: '1.25',
       150: '1.5',
     },
+    size: (theme) => theme('spacing'),
     skew: {
       '-12': '-12deg',
       '-6': '-6deg',
@@ -825,6 +826,7 @@ module.exports = {
     ringWidth: ['responsive', 'focus-within', 'focus'],
     rotate: ['responsive', 'hover', 'focus'],
     scale: ['responsive', 'hover', 'focus'],
+    size: ['responsive'],
     skew: ['responsive', 'hover', 'focus'],
     space: ['responsive'],
     stroke: ['responsive'],

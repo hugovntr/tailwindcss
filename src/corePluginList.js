@@ -118,4 +118,5 @@ export const corePluginList = [
   'transitionDuration',
   'transitionDelay',
   'animation',
+  'size',
 ]
